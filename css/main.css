@@ -96,13 +96,80 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
+body {
+  font-family: "proxima-nova",sans-serif;
+}
+h1, h2, h3 {
+  font-family: "brandon-grotesque",sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto; padding: 0 5px;
+}
+.container--two-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.panel {
+  margin-right: 3em;
+}
+.panel:last-child {
+  margin-right: 0;
+}
+.main-nav {
+  display: flex;
+  font-family: "brandon-grotesque",sans-serif;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-nav__company {
+  color: rgba(36, 35, 37, 1);
+  white-space: nowrap;
+}
+.main-nav__logo {
+  display: inline-block;
+  width: 125px;
+}
+.main-nav__link {
+ color: rgba(36, 35, 37, 1);
+ font-size: 1.4em;
+ margin: 0 1em;
+ text-decoration: none;
+}
+.coverage__list {
+  column-count: 2;
+  column-gap: 3em;
+  max-width: 500px;
+}
+.coverage__item {
+  break-inside: avoid;
+}
+.about__photo-container {
+  padding-right: 10px;
+}
+.about__photo-container:last-child {
+  padding-right: 0;
+}
+.about__photo {
+  border: 4px solid rgba(200, 200, 200, 1);
+  height: auto;
+  max-width: 500px;
+}
+.contact__phone {
+  color: rgba(36, 35, 37, 1);
+  display: block;
+  font-size: 1.3em; font-weight: 600;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.contact__email {
+  color: rgba(36, 35, 37, 1);
+  display: block;
+  font-size: 1.1em;
+  text-decoration: none;
+}
 
 
 
